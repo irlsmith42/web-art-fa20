@@ -2,16 +2,10 @@
 body {
     color: black;
     font-size: 30;
-    height: 2000px;
     background-color: black;
-    width: 2000px;
 }
 .mainbg{
     background: linear-gradient(to bottom, #ce6006 0%, #99ccff 100%);
-    height: 1500px; 
-    width: 1800px;
-    margin: 100px;
-    float: left;
 }
 h1 {
     font-size: 50px;
@@ -28,16 +22,21 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
-.leocities {
+img {
+    max-width: 200px;
+    max-height: 150px;
+}
+#leocities {
     background: #99ccff;
     position: relative;
     width: 300px;
     height: 100px;
+    border-radius: 2%;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
 }
-.intro {
+#intro {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -45,49 +44,41 @@ p {
 }
 .upperimages{
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+#threecolumns {
+    display: flex;
+    width: 100vw;
+    background-color: teal;
+    justify-content: space-between;
 }
 .imagesleft{
-    position: fixed;
-    width: 200px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.centercolumn {
+    max-width: 1000px;
 }
 .imagesright{
-    width: 200px;
-    float: right;
-    margin: -120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.corner {
-    position: relative;
-    text-align: center;
-    top: 50%;
-    left: 55%;
-    height: 600px;
-    width: 500px;
-    background-color: whitesmoke;
+#maintext {
+    max-width: 2000px;
+    max-height: 500px;
+    background-color: teal;
+    margin: 5em;
 }
-#left {
-    float: left;
-    width: 40%;
-    margin: 10px;
-    padding: 1em;
-  }
-  #right {
-    float: right;  
-    width: 40%;
-    margin: 10px;
-    padding: 1em;
-  }
-  aside, section {
-    left: 300px;
-    background-color: white;
-  }
 .lowermenu{
     height: 200px;
     position: relative;
-    top: 1100px;
-    margin: auto;
     background: green;
-    width: 1550px;
-    padding: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
