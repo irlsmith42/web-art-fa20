@@ -50,7 +50,6 @@ img {
 #threecolumns {
     display: flex;
     width: 100vw;
-    background-color: teal;
     justify-content: space-between;
 }
 .imagesleft{
