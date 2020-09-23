@@ -80,7 +80,7 @@ img {
     margin: 5em;
 }
 .lowermenu{
-    height: 200px;
+    height: 20vw;
     position: relative;
     background-image: url('/session04/gifcities/starstwinkling.gif');    display: flex;
     justify-content: space-evenly;
