@@ -1,0 +1,115 @@
+body {
+  background: white;
+  width: 100vw;
+  height: 100vw;
+}
+
+.puzzlebox {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  animation: "assemble" 15s ease-in 1s infinite;
+}
+
+.jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4 {
+  width: 6em;
+  height: 6em;
+  margin: 50px;
+  position: relative;
+  -webkit-border-radius: .5em;
+  -moz-border-radius: .5em;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+.jigsaw1,
+.jigsaw1 span {
+ background-color: #0284cf; 
+
+}
+
+.jigsaw2,
+.jigsaw2 span {
+ background-color: #00008B; 
+
+}
+
+.jigsaw3,
+.jigsaw3 span {
+ background-color: #4848e0; 
+
+}
+
+.jigsaw4,
+.jigsaw4 span {
+ background-color: #206baa; 
+
+}
+
+
+.jigsaw3 .t, .jigsaw4 .t  {
+ width: 2em;
+  height: 2em;
+  position: absolute;
+  top: -1.5em;
+  left: 2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .r, .jigsaw3 .r {  
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 2em;
+  left: 5.5em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+}
+
+.jigsaw1 .b, .jigsaw2 .b {  
+  width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 4.5em;
+  left: 2.2em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+.jigsaw2 .l, .jigsaw4 .l { 
+ width: 1.8em;
+  height: 1.8em;
+  position: absolute;
+  top: 2.2em;
+  left: -.4em;
+  -webkit-border-radius: 4em;
+  -moz-border-radius: 4em;
+  border-radius: 4em;
+  background-color: #fff;
+}
+
+@keyframes assemble {
+    
+    0% {
+      top: 0;
+      height: 500px;
+      width: 500px;
+    }
+  
+    50% {
+      top: 100px;
+      height: 250px;
+      width: 250px;
+     }
+  
+    100% {
+      height: 220px;
+      width: 220px;
+     }
+    }
