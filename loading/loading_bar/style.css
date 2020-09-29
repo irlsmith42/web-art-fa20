@@ -5,20 +5,35 @@ body {
 }
 
 .puzzlebox {
-  width: 500px;
-  height: 500px;
+  width: 100vw;
+  height: 100vw;
   display: flex;
-  flex-wrap: wrap;
-  animation: "assemble" 15s ease-in 1s infinite;
+  flex-direction: column;
+  background-color: gray;
+  animation: "assemble" 5s linear 1s infinite;
+}
+
+.row1 {
+  height: 8em;
+  max-width: 16em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.row2 {
+  height: 8em;
+  max-width: 16em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .jigsaw1, .jigsaw2, .jigsaw3, .jigsaw4 {
   width: 6em;
   height: 6em;
-  margin: 50px;
   position: relative;
-  -webkit-border-radius: .5em;
-  -moz-border-radius: .5em;
   border-radius: .5em;
   cursor: pointer;
 }
@@ -31,19 +46,19 @@ body {
 
 .jigsaw2,
 .jigsaw2 span {
- background-color: #00008B; 
+ background-color: #1dddb4; 
 
 }
 
 .jigsaw3,
 .jigsaw3 span {
- background-color: #4848e0; 
+ background-color: #e0b048; 
 
 }
 
 .jigsaw4,
 .jigsaw4 span {
- background-color: #206baa; 
+ background-color: #d81919; 
 
 }
 
@@ -54,9 +69,8 @@ body {
   position: absolute;
   top: -1.5em;
   left: 2em;
-  -webkit-border-radius: 4em;
-  -moz-border-radius: 4em;
   border-radius: 4em;
+  z-index: 4;
 }
 
 .jigsaw1 .r, .jigsaw3 .r {  
@@ -65,9 +79,8 @@ body {
   position: absolute;
   top: 2em;
   left: 5.5em;
-  -webkit-border-radius: 4em;
-  -moz-border-radius: 4em;
   border-radius: 4em;
+  z-index: 3;
 }
 
 .jigsaw1 .b, .jigsaw2 .b {  
@@ -76,40 +89,36 @@ body {
   position: absolute;
   top: 4.5em;
   left: 2.2em;
-  -webkit-border-radius: 4em;
-  -moz-border-radius: 4em;
   border-radius: 4em;
   background-color: #fff;
+  z-index: 2;
 }
 
 .jigsaw2 .l, .jigsaw4 .l { 
- width: 1.8em;
+  width: 1.8em;
   height: 1.8em;
   position: absolute;
   top: 2.2em;
   left: -.4em;
-  -webkit-border-radius: 4em;
-  -moz-border-radius: 4em;
   border-radius: 4em;
   background-color: #fff;
+  z-index: 1;
 }
 
 @keyframes assemble {
     
     0% {
-      top: 0;
-      height: 500px;
-      width: 500px;
+      height: 18em;
+      width: 18em;
     }
   
     50% {
-      top: 100px;
-      height: 250px;
-      width: 250px;
+      height: 16em;
+      width: 16em;
      }
   
     100% {
-      height: 220px;
-      width: 220px;
+      height: 13em;
+      width: 13em;
      }
     }
