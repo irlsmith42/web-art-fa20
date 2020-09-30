@@ -5,26 +5,26 @@ body {
 }
 
 .puzzlebox {
+  padding: 6em;
   width: 100vw;
   height: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: gray;
-  animation: "assemble" 5s linear 1s infinite;
+  background-color: white;
+  animation: "assemble" 7s ease-in 1s infinite;
 }
 
 .row1 {
-  height: 8em;
-  max-width: 16em;
+  height: 18em;
+  max-width: 30em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-
 }
 
 .row2 {
-  height: 8em;
-  max-width: 16em;
+  height: 18em;
+  max-width: 30em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -108,17 +108,22 @@ body {
 @keyframes assemble {
     
     0% {
-      height: 18em;
-      width: 18em;
+      height: 32em;
+      width: 32em;
     }
   
-    50% {
-      height: 16em;
-      width: 16em;
+    33% {
+      height: 22em;
+      width: 22em;
      }
   
-    100% {
-      height: 13em;
-      width: 13em;
+    66% {
+      height: 12em;
+      width: 12em;
+     }
+    90% {
+      height: 12em;
+      width: 12em;
      }
     }
+
