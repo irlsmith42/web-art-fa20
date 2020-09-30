@@ -1,0 +1,62 @@
+html {
+    font-size: medium;
+    color: black;
+}
+
+.machine {
+    width: 28vw;
+    height: 30vw;
+    background-color: rgb(131, 135, 139);
+    border-radius: 5%;
+    border:rgb(119, 123, 128);
+    border-style: outset;
+    border-width: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.window {
+    width: 22vw;
+    height: 22vw;
+    margin: auto;
+    background-image:linear-gradient(rgb(89, 195, 236), rgb(219, 219, 96));
+    border-radius: 50%;
+    border:rgb(196, 190, 190) ;
+    border-style: inset;
+    border-width: 24px;
+    animation: "washing" 3s linear 1s infinite;
+}
+
+.buttons {
+    height: 3vw;
+    background-color: rgb(226, 214, 216);
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    height: 2.5vw;
+    width: 2.5vw;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 5px;
+    background-color: rgb(148, 165, 148);
+    border-color: gray;
+}
+
+@keyframes washing {
+    0% {
+        rotate: 45deg;
+    }
+    33% {
+        rotate: 90deg;
+    }
+    66% {
+        rotate: 135deg;
+    }
+    99% {
+        rotate: 180deg;
+    }
+}
