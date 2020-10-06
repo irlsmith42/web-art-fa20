@@ -1,0 +1,27 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ h1 {
+     text-align: center;
+ }
+ html {
+     font-family: serif;
+ }
+ .wrapper {
+     width: 100vw;
+     max-width: 1200px;
+     height: 100vw;
+     background-color: cyan;
+ }
+ .columns {
+    width: 80vw;
+    margin: 0 auto;
+    column-count: 5;
+    height: 100vh;
+    background-color: rgb(77, 77, 180);
+ }
+ .column_img {
+     width: 100%;
+ }
