@@ -13,13 +13,17 @@ html {
     height: 100vw;
     margin: 0 auto;
     background-color: cyan;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 header {
     font-family: serif;
-    font-size: 50px;
+    font-size: 20px;
     color: green;
     text-align: center;
+    padding: 2vw;
 }
 .header h1 {
     max-height: 10vw;
@@ -27,4 +31,10 @@ header {
 
 .galleryitem {
     background-color: blueviolet;
+    padding: 2vw;
+}
+
+img {
+    width: 23vw;
+    height: 23vw;
 }
