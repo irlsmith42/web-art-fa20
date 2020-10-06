@@ -1,0 +1,47 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ h1 {
+     text-align: center;
+     margin: 1em;
+ }
+ html {
+     font-family: sans-serif;
+ }
+ .wrapper {
+     width: 100vw;
+     max-width: 1200px;
+     height: 130vh;
+     margin: 0 auto;
+     background-color: rgb(231, 87, 212);
+     display: flex;
+ }
+ .caption {
+    color: cyan;
+    font-size: 30px;
+    text-align: center;
+    padding: 1em;
+    background-color: pink;
+    width: 300px;
+    margin: 0 auto;
+}
+
+div:hover .caption {
+    background-color: rgb(243, 140, 157);
+    color: rgb(87, 184, 240);
+    width: 310px;
+    padding: 1.5em; 
+}
+ .clickme{
+     width: 25vw;
+     height: 25vh;
+     margin: 0 auto;
+     display: flex;
+     flex-flow: column;
+ }
+ .image {
+     padding: 10vw;
+ }

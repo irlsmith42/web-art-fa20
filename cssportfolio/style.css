@@ -10,7 +10,7 @@ html {
 .wrapper {
     width: 100vw;
     max-width: 1200px;
-    height: 100vw;
+    height: 120vh;
     margin: 0 auto;
     background-color: cyan;
     display: flex;
