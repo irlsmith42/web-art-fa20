@@ -3,43 +3,60 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+p {
+    font-size: 11pt;
+}
 html {
     font-family: serif;
 }
 .wrapper {
     width: 100vw;
     max-width: 1200px;
-    height: 120vh;
+    height: 100vh;
     margin: 0 auto;
     background-color: cyan;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.gallery1{
+    height: 30vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gallery2{
+    min-height: 30vmax;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery3{
+    height: 30vmax;
+    display: flex;
     justify-content: space-evenly;
 }
 
 header {
     font-family: serif;
-    font-size: 20px;
-    color: green;
+    color: rgb(10, 230, 10);
     text-align: center;
-    padding: 2vw;
+    padding: 1em;
 }
 .header h1 {
-    max-height: 10vw;
+    font-size: clamp(1rem, 10vw, 2rem); 
 }
 .caption{
     font-family: sans-serif;
     text-align: center;
     font-weight: 500;
-    color: blue;
+    font-size: clamp(1rem, 2vw, 2rem); 
+    color: rgb(12, 12, 190);
 }
 .galleryitem {
-    background-color: blueviolet;
-    padding: 2vw;
+    background-color: rgb(201, 146, 253);
+    padding: 1em;
 }
 
-img {
-    width: 23vw;
-    height: 23vw;
+.galleryimg {
+    width: 24vmin;
 }

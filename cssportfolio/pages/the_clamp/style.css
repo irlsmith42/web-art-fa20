@@ -1,0 +1,26 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1 {
+    letter-spacing: 2px;
+    font-size: clamp(1.8rem, 2.5vw, 2.8rem);
+    margin: 1em;
+    padding: 1em;
+  }
+  
+  p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  img {
+    margin: 0 auto;
+    width: clamp(1rem, 80vw, 100rem);
+  }

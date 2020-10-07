@@ -1,0 +1,36 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html {
+     font-family: serif;
+ }
+ .wrapper1 {
+     width: 100vw;
+     max-width: 1200px;
+     height: 120vh;
+     margin: 0 auto;
+     background-color: cyan;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ h1 {
+    font-size: 15vmin;
+    background-color: royalblue;
+ }
+ h2 {
+    font-size: 12vmax;
+ }
+ h3 {
+    font-size: 10vmin;
+    background-color: royalblue;
+ }
+ h4 {
+    font-size: 7vmax;
+ }
+ h5 {
+    font-size: 4vmax;
+    background-color: royalblue;
+
+ }
