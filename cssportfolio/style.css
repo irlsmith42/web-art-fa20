@@ -28,7 +28,12 @@ header {
 .header h1 {
     max-height: 10vw;
 }
-
+.caption{
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 500;
+    color: blue;
+}
 .galleryitem {
     background-color: blueviolet;
     padding: 2vw;

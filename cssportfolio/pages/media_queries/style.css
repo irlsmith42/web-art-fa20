@@ -1,0 +1,45 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ html {
+     font-family: sans-serif;
+ }
+ p {
+  padding: 1em;
+  font-size: 13pt;
+}
+h1 {
+    padding: .5em;
+    text-align: center;
+}
+h2 {
+    font-size: 120pt;
+}
+.wrapper {
+   width: 100vw;
+   max-width: 1200px;
+   height: 120vh;
+   margin: 0 auto;
+   background-color: rgb(228, 248, 52);
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+      background-color: red;
+    }
+    h1 {
+        display: none;
+    }
+    p {
+        display: none;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    h2 {
+        display: none;
+    }
+  }  
