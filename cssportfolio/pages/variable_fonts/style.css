@@ -1,0 +1,28 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ p {
+     font-size: 11pt;
+ }
+ html {
+     font-family: serif;
+ }
+ .wrapper {
+     width: 100vw;
+     max-width: 1200px;
+     height: 100vh;
+     margin: auto;
+     background-color: cyan;
+ }
+ .varfonts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4rem;
+    font-size: 4vmin;
+ }
+ h1 {
+     
+ }

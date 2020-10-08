@@ -12,6 +12,10 @@
   font-size: 13pt;
   font-style: italic;
 }
+:root{
+  scrollbar-color: orangered blue !important;
+  scrollbar-width: thin !important;
+}
 .wrapper {
    width: 100vw;
    max-width: 1200px;
