@@ -1,3 +1,7 @@
+:root{
+  scrollbar-color: orangered blue !important;
+  scrollbar-width: thin !important;
+}
 * { 
     margin: 0;
     padding: 0;
@@ -12,10 +16,7 @@
   font-size: 13pt;
   font-style: italic;
 }
-:root{
-  scrollbar-color: orangered blue !important;
-  scrollbar-width: thin !important;
-}
+
 .wrapper {
    width: 100vw;
    max-width: 1200px;
@@ -29,7 +30,7 @@
 .textbox{
    width: 50vw;
    background-color: rgb(255, 206, 47);
-   height: 30vw;
+   height: 50vw;
 }
 p.intro::first-letter {
   color: #e45705;
@@ -41,7 +42,9 @@ p.intro::first-line {
   font-variant: small-caps;
   font-family: serif;
 }
-
+.scroller{
+  scrollbar-base-color: rgb(32, 210, 241);
+}
  .textbox::-webkit-scrollbar {
     width: 10px;
     background-color: greenyellow;

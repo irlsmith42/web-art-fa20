@@ -4,7 +4,8 @@
     box-sizing: border-box;
  }
  p {
-     font-size: 11pt;
+     font-size: 16pt;
+     font-family: 'Vollkorn', serif;
  }
  html {
      font-family: serif;
@@ -17,12 +18,32 @@
      background-color: cyan;
  }
  .varfonts{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 4rem;
+    line-height: 2em;
+    padding: 4em;
     font-size: 4vmin;
  }
- h1 {
-     
- }
+#fonts1{
+    font-style: normal;
+    font-weight: 400;
+}
+#fonts2{
+    font-style: italic;
+    font-weight: 400;
+}
+#fonts3{
+    font-style: normal;
+    font-weight: 500;
+}
+#fonts4{
+    font-style: italic;
+    font-weight: 500;
+}
+#fonts5{
+    font-style: normal;
+    font-weight: 700;
+}
+#fonts6{
+    font-style: italic;
+    font-weight: 800;
+}
+
