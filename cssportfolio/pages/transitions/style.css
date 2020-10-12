@@ -1,0 +1,18 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .wrapper {
+     width: 1000px;
+     max-width: 1200px;
+     height: 100vh;
+     margin: auto;
+     transition: opacity 10s;
+     background-image: url("owl.jpg");
+     background-color: sandybrown;
+
+ }
+ .wrapper:hover{
+    opacity: 0;
+ }
