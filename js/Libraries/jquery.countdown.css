@@ -1,3 +1,6 @@
+body{
+background-color: black;
+}
 .countdownHolder{
 	width:450px;
 	margin:0 auto;
@@ -51,13 +54,13 @@ h1 {
  * of the countdown that you don't need.
  */
 
-.countDays{ /* display:none !important;*/ }
-.countDiv0{ /* display:none !important;*/ }
-.countHours{}
-.countDiv1{}
-.countMinutes{}
-.countDiv2{}
-.countSeconds{}
+.countDays{ display:none !important;*/ }
+.countDiv0{ display:none !important;*/ }
+.countHours{display:none !important;*/}
+.countDiv1{display:none !important;*/}
+.countMinutes{display:none !important;*/}
+.countDiv2{display:none !important;*/}
+.countSeconds{display:none !important;*/}
 
 
 .countDiv{
@@ -86,6 +89,22 @@ h1 {
 }
 
 #note {
-	background: greenyellow;
-	font-family: sans-serif;
+	background: rgb(38, 39, 37);
+	color: rgb(128, 206, 11);
+	font-family: 'Roboto Mono', monospace;	font-size: 60pt;
+	font-weight: 400;
+	padding: 1em;
+	text-align: center;
+	border-style: dotted; 
+}
+.message{
+	background-color: rgb(61, 55, 58);
+	color: hotpink;
+	font-family: 'Roboto Mono', monospace;	font-size: xx-large;
+	font-weight: 700;
+	text-align: center;
+	padding: .5em;
+	width: 30vw;
+	margin: 0 auto;
+	border-style: dotted;
 }
