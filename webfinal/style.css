@@ -1,0 +1,27 @@
+body {
+    margin: 5em;
+    font-family: sans-serif;
+    color: darkslategrey;
+    font-size: 16pt;
+    background: rgb(252, 234, 210);
+}
+
+h2 {
+    font-size: 20pt;
+    color: darkblue;
+}
+h1 {
+    color: blue;
+}
+h3 {
+    font-size: 16pt;
+    margin-left: 3em;
+    color: darkslateblue;
+}
+p {
+    line-height: 1.1em;
+}
+.insp {
+    margin-left: 4em;
+    line-height: 1.2em;
+}
