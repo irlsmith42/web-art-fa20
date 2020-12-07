@@ -1,0 +1,79 @@
+body {
+ }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    animation-name: "title";
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+.title{
+    width: 40vw;
+    height: 10vh;
+    text-align: center;
+    color: blue;
+    background-color: azure;
+    padding: .5em;
+ }
+
+.lowermenu{
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .menubutton{
+     background-color: white;
+     margin: 0 auto;
+     height: 2.8em;
+     width: 15vw;
+     font-size: 20pt;
+     font-family: sans-serif;
+     text-align: center;
+ }
+
+.bg{
+    background-image: url("../assets/images/cobblehill3.png");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+#loading{
+    animation-name: "loading";
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.6, 0.35, 0.15, 0.86);
+}
+
+@keyframes title { 
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+@keyframes loading {
+from {
+    width: 200vw;
+    height: 200vh;
+    left: -800px;
+    top: -700px;    
+}
+to {
+    width: 120vw;
+    height: 200vh;
+    top: 200px;
+    left: 0;
+}
+
+}
